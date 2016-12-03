@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Weather = React.createClass({
+var Timer = React.createClass({
   getInitialState: function(){
     return{
 
@@ -11,12 +11,10 @@ var Weather = React.createClass({
 
     return (
         <div>
-          <h1 className="text-center page-title">Title here </h1>
-          <p>Message paragraph</p>
-
+          <h1 className="page-title">Timer component </h1>
         </div>
     );
   }
 });
 
-module.exports = Weather
+module.exports = Timer;
